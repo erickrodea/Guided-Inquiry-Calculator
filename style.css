@@ -1,0 +1,188 @@
+main {
+    display: flex;
+    justify-content: center;
+    /* Horizontally center the content */
+    align-items: center;
+    /* Vertically center the content */
+    /* height: 100vh; */
+    margin-bottom: 5vh;
+}
+
+table {
+    justify-content: center;
+    display: inline-block;
+    padding: 60px;
+    grid-row: auto;
+    border-radius: 10%;
+
+
+}
+
+.clear {
+    background-color: red;
+}
+
+
+
+
+.calculator {
+    background-color: #0f0d0d;
+    border: 5px solid gold;
+}
+
+/* spacing around the buttons */
+input[type=button] {
+    width: 100%;
+    padding: 40px;
+    font-size: 40px;
+    margin-bottom: 10px;
+    /* border-radius: 50%; */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1vh;
+    background: #901bb4;
+    margin-top: 60vh;
+
+}
+
+input[type="text"] {
+    width: 112%;
+    padding: 30px;
+    font-size: 30px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    background: #412a49;
+    border: none;
+    color: white;
+    border-style: solid;
+
+}
+
+.operator {
+
+
+    background-color: gold
+}
+
+@media(max-width:420px) {
+    /* breakpoint for phone */
+
+
+    table.calculator {
+        justify-content: center;
+        display: inline-block;
+        padding: 20px;
+        grid-row: auto;
+        border-radius: 10%;
+        width: 100%;
+
+
+    }
+
+    input[type=button] {
+        justify-content: center;
+        width: 60px;
+        padding: 20px;
+        font-size: 20px;
+        margin-bottom: 10px;
+        /* border-radius: 50%; */
+    }
+
+    input[type="text"] {
+        width: 100%;
+        padding: 30px;
+        font-size: 10px;
+        margin-top: 1px;
+        margin-bottom: 10px;
+        background: #412a49;
+        border: none;
+        color: white;
+        border-style: solid;
+
+    }
+
+
+
+
+
+}
+
+@media screen and (min-width: 421px) and (max-width: 760px) {
+
+    table.calculator {
+        justify-content: center;
+        display: inline-block;
+        padding: 40px;
+        grid-row: auto;
+        border-radius: 10%;
+        width: 100%;
+
+
+    }
+
+    input[type=button] {
+        justify-content: center;
+        width: 80px;
+        padding: 20px;
+        font-size: 20px;
+        margin-bottom: 10px;
+        /* border-radius: 50%; */
+    }
+
+    input[type="text"] {
+        width: 108%;
+        padding: 30px;
+        font-size: 10px;
+        margin-top: 1px;
+        margin-bottom: 10px;
+        background: #412a49;
+        border: none;
+        color: white;
+        border-style: solid;
+
+    }
+
+
+}
+
+@media screen and (min-width: 761px) and (max-width: 1160px) {
+
+    /* breakpoint for desktop */
+
+    table.calculator {
+        justify-content: center;
+        display: inline-block;
+        padding: 80px;
+        grid-row: auto;
+        border-radius: 10%;
+        width: 100%;
+
+
+    }
+
+    input[type=button] {
+        justify-content: center;
+        width: 80px;
+        padding: 25px;
+        font-size: 25px;
+        margin-bottom: 20px;
+        /* border-radius: 50%; */
+    }
+
+    input[type="text"] {
+        width: 108%;
+        padding: 30px;
+        font-size: 10px;
+        margin-top: 1px;
+        margin-bottom: 10px;
+        background: #412a49;
+        border: none;
+        color: white;
+        border-style: solid;
+
+    }
+}
