@@ -1,27 +1,3 @@
-// function display(val) {
-
-//     document.getElementById('result').value += val
-
-//     return val
-
-// }
-// function solve() {
-
-//     let x = document.getElementById('result').value
-
-//     let y = eval(x);
-
-//     document.getElementById('result').value = y
-
-//     return y
-
-// }
-// function clearScreen() {
-
-//     document.getElementById('result').value = ''
-
-// }
-
 
 
 // we store the user input
@@ -72,7 +48,8 @@ function toggleSign() {
 }
 
 
-
+// So, in simple terms, when this function "append" is used, it adds the "value" to the text in the input field, and then it displays the updated text on the screen.
+// It's like typing numbers into a calculator and seeing the results on the calculator's display.
 function append(value) {
     input += value;
     updateDisplay(input);
