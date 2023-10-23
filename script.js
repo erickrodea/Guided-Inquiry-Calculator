@@ -56,7 +56,8 @@ function append(value) {
 }
 
 
-
+//So, when this "updateDisplay" function is used, it finds the text input field with the ID "result" 
+//on the web page and changes the text inside it to whatever "value" you provide to the function. It's like updating the text in a box on a web page when you want to display something new.
 function updateDisplay(value) {
     document.getElementById("result").value = value;
 }
